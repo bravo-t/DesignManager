@@ -7,6 +7,7 @@ DesignManager is a design flow framework to increase productivity by analyzing j
 ## Features
 * The tool leverages parallel computing to the highest level. It analyzes job dependencies, and dispatches as many as possible jobs at a time to reduce run time.
 * The tool supports submiting and monitoring jobs to Platform LSF, and/or running jobs locally.
+* The tool monitors the input and output dependency file, once they are modified unexpectedly, related jobs will be invalidated automatically.
 * Completely detached GUI client and server. The GUI client is safe to be closed or terminated, and running jobs will still be monitored in background, and scheduled jobs will be dispatched when all of its upstream jobs finished normally.
 * Changable job graph and status. User can change job graph and/or status without any change to the input dependency file. A job can be skipped, re-ran or completely removed from job graph. This makes trial-and-error iterations in IC design much more convinient.
 * Intuitive representation of the status of each jobs. The tool has a GUI that represents the dependencies between jobs, and status of the jobs.
