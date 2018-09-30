@@ -2,7 +2,7 @@
 A flow framework suitable for IC designs.
 
 ## Introduction
-DesignManager is a design flow framework to increase productivity by analyzing job dependencies and automatically dispatching jobs. The tool reads a easy-to-generate file that contains information about each job, analyzes the correct sequence of the jobs have to be executed, and builds a directed acyclic graph internally. Once a instruction to run a perticular job is received from user, The tool will trace the DAG to analyze the prerequisites of the job, recursively dispatch the prerequisite jobs and monitor the status of them, without any further asist from user.
+DesignManager is a design flow framework to increase productivity by analyzing job dependencies and automatically dispatching jobs. The tool reads a easy-to-generate file that contains information about each job, analyzes the correct sequence of the jobs have to be executed, and builds a directed acyclic graph internally. Once a instruction to run a perticular job is received from user, The tool will trace the DAG to analyze the prerequisites of the job, recursively dispatch the prerequisite jobs and monitor the status of them, without any further assist from user.
 
 ## Features
 * The tool leverages parallel computing to the highest level. It analyzes job dependencies, and dispatches as many as possible jobs at a time to reduce run time.
