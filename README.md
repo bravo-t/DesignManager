@@ -22,3 +22,5 @@ Below is the screenshots of the tool. I run it on [NN](https://github.com/bravo-
 ![](screenshots/run.gif)
 * If a job is invalidated, the tool will also invalidate all downstream jobs, as the output of current job might change, and this will affect downstream jobs
 ![](screenshots/invalidate.gif)
+* Below is an physical implementation flow example I created.
+![](screenshots/flow_example.gif)
